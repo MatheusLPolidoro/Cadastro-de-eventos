@@ -5,3 +5,20 @@
 Utilizei HTML, CSS e Javascript puro para desenvolver um sistema web de cadastro.
 
 <a href="https://atividades-senai-69e6x99df-matheuslpolidoro.vercel.app/" target="_blank" rel="external"><em><strong>Clique aqui</em></strong></a> para ser direcionado ao site implementado.
+
+## Skills Praticadas
+
+✔️ Node.js </br>
+✔️ Javascript</br>
+
+</br>
+
+## 👨🏼‍💻AUTOR
+<a href="https://github.com/MatheusLPolidoro" style="align: center" width="90px">
+<a href="https://github.com/MatheusLPolidoro" style="align: center" width="90px">
+<a href="https://github.com/MatheusLPolidoro" style="align: center" width="90px">  
+  
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/89528428?s=400&u=8daaa0a3a5cb3d2cb816fbe6ad5d5b4d1b31169b&v=4" width="200" alt="Image do Matheus Polidoro">
+  </br>🧑🏼 <a href="https://github.com/MatheusLPolidoro"> Matheus Polidoro</a>
+</p>
