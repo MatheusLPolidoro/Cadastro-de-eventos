@@ -5,16 +5,16 @@ var dataNasc, dataAtual, dataEvento, idade, qtdParticipantes, nomeEvento
 
 let data = new Date()
 
-dataAtual = [leftPad(data.getMonth() + 1, 2), leftPad(data.getDate(), 2), data.getFullYear()]
+dataAtual = [data.getFullYear(), leftPad(data.getMonth() + 1, 2), leftPad(data.getDate(), 2)]
 dataNasc = prompt('Digite sua data de nascimento [dd/mm/yyyy]').replaceAll("/", "")
-dataNasc = [dataNasc.substring(2, 4), dataNasc.substring(0, 2), dataNasc.substring(4, 8)]
+dataNasc = [dataNasc.substring(4, 8), dataNasc.substring(2, 4), dataNasc.substring(0, 2)]
 
-idade = dataAtual[2] - dataNasc[2] 
-if(parseInt(dataAtual[0]) < parseInt(dataNasc[0])){
+idade = dataAtual[0] - dataNasc[0] 
+if(parseInt(dataAtual[1]) < parseInt(dataNasc[1])){
     idade-- 
 } else {
-    if(parseInt(dataAtual[0]) === parseInt(dataNasc[0])){ 
-        if(parseInt(dataAtual[1]) < parseInt(dataNasc[1])){ 
+    if(parseInt(dataAtual[1]) === parseInt(dataNasc[1])){ 
+        if(parseInt(dataAtual[2]) < parseInt(dataNasc[2])){ 
             idade-- 
         }
     }
@@ -22,7 +22,7 @@ if(parseInt(dataAtual[0]) < parseInt(dataNasc[0])){
 
 if (idade > 18) {
     dataEvento = prompt('Digite a data do evento que deseja programar [dd/mm/yyyy]').replaceAll("/","")
-    dataEvento = [dataEvento.substring(2, 4), dataEvento.substring(0, 2), dataEvento.substring(4, 8)].join()
+    dataEvento = [dataEvento.substring(4, 8), dataEvento.substring(2, 4), dataEvento.substring(0, 2)].join()
     dataAtual = dataAtual.join()
 
     if (dataEvento > dataAtual) {
